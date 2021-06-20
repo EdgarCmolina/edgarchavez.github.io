@@ -1,0 +1,99 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.contenedor {
+  background-color: whitesmoke;
+}
+
+.parrafocolor {
+  color: yellowgreen;
+}
+
+.parrafoderecha {
+  text-align: right;
+}
+
+.parrafoozquierda {
+  text-align: left;
+}
+
+.parrafocentro {
+  text-align: center;
+}
+
+.parrafoalign {
+  text-align: justify;
+}
+
+.parrafojustificado {
+  text-align: justify;
+}
+.parrafosubrayado {
+  text-decoration: underline;
+}
+
+.parrafolinea {
+  text-decoration: overline;
+}
+
+.parrafotachado {
+  text-decoration: line-through;
+}
+
+.parrafosinestilo {
+  text-decoration: none;
+}
+
+.parafomayuscula {
+  text-transform: uppercase;
+}
+
+.pararfominuscula {
+  text-transform: lowercase;
+}
+
+.pararfonombrepropio {
+  text-transform: capitalize;
+}
+
+.parrafoespacionormal {
+  letter-spacing: 5px;
+}
+
+.parrafoespaciocomprimido {
+  letter-spacing: -1.9px;
+}
+
+.parrafoespaciolinea {
+  line-height: 0.9px;
+}
+
+.parrafoespaciolineascomprimidas {
+  letter-spacing: 10px;
+}
+
+.parrafoespacioletracomprimido {
+  word-spacing: -10px;
+}
+
+/* agegamos separacion */
+
+.parrafoespacio {
+  white-space: pre-wrap;
+}
+
+.parrafosangria {
+  text-indent: 50px;
+}
+/* agreamos sombra al texto del parrafo */
+
+.parrafosombra {
+  text-shadow: 2px 2px yellowgreen;
+}
+
+.parrafosombragrande {
+  text-transform: uppercase;
+  font-size: 25px;
+  text-shadow: 5px 5px 5 px red;
+}

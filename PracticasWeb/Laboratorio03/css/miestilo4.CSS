@@ -1,0 +1,113 @@
+/* esto es un comentario */
+/* Aplicar comentarios a las partes de la pagina web */
+/* le aplicamos colores de fondo */
+.contenedor {
+  background-color: blue;
+}
+.cabecera {
+  background-color: gray;
+}
+.menu {
+  background-color: hotpink;
+}
+.contenido {
+  background-color: khaki;
+}
+.pie {
+  background-color: lightskyblue;
+}
+.body {
+  background-color: lime;
+}
+/* le aplicamos una imagen de fondo al parrafo */
+.parrofoimagen {
+  background-image: url("/img/Lay.jpg");
+}
+/* le aplicamos un color de fondo al parrafo y le damos una transparencia */
+.parrafotransparencia {
+  background-color: black;
+  opacity: 75%;
+  color: whitesmoke;
+}
+/* agregamos una imagen de fondo para el parrafo, pero que se repita */
+.parrafoimagenrepetir {
+  background-image: url("/img/dxd");
+}
+/* agregamos una imagen de fondo al parrafo pero que no se repita */
+.parrafoimagennorepetir {
+  background-image: url("/img/dxd");
+  background-repeat: no repeat;
+}
+
+.parrafoimagentamaño {
+  background-image: url("/img/dxd");
+  background-size: 30px;
+}
+
+.parrafoimagenrepetirhorizontal {
+  background-image: url("/img/dxd");
+  background-repeat: repeat-x;
+  background-size: 30px;
+}
+
+.parrafoimagenrepetirvertical {
+  background-image: url("/img/dxd");
+  background-repeat: repeat-y;
+  background-size: 30px;
+}
+
+.parrafoimagencentrar {
+  background-image: url(/img/dxd);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagenizquierda {
+  background-image: url(/img/dxd);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagenderecha {
+  background-image: url(/img/dxd);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagensuperior {
+  background-image: url(/img/dxd);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimageninferior {
+  background-image: url(/img/dxd);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagensuperiorderecha {
+  background-image: url(/img/dxd);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimageninferiorizquierda {
+  background-image: url(/img/dxd);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.parrafoimagenesfondo {
+  background-image: url("/img/dxd"), url("/img/Lay.jpg");
+  background-position: left, right;
+  background-size: 80px, 150px;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-parte 3</title>
+    <script type="text/javascript">
+    // ejemplo 1
+    // desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se saber que si pertenece a la categoria 2 y es del turno mañana se le aplicara una bonificacion del 7% en caso contrario no se ke aplicara una bonificacion. Mostrar todos los resultados.
+    // ¿cuantas variables necesito?
+    // 5
+    // que tipo de datos necesito
+    // real, entero, texto 
+    // ¿Cuales son las variables?
+    // sb, bon, sf, cat, tur
+    // ¿que variables voy a leer?
+    // sb, cat, tur
+    // definiendo e inicializando variables
+    var sb=0, bon=0, sf=0, cat=0, tur="";
+    // capturando variables
+    sb=parseFloat(promt("Ingrese el sueldo basico:"));
+    cat=parseInt(promt("Ingrese la categoria:"));
+    tur=promt("Ingrese el turno [m] o [t] o [n]:");
+    // coondicion
+    if(cat==2 && (tur=="m" || tur=="M")){
+        bon=sb*0.07;
+    }else{
+        bon=0;
+    }
+    // realizando operacion
+    sf=sb+bon;
+    // mostrando resultados
+    alert("el sueldo basico es: "+sb);
+    alert("la bonificacion: "+bon);
+    alert("el sueldo basico es: "+sf);
+
+
+    // Ejemplo 2
+    // desarrollar una aplicacion que permita ingresar 3 numeros y  luego calcular cual es el mayor y el cual es el menor. mostrar
+
+        // ¿cuantas variables necesito?
+    // 5
+    // que tipo de datos necesito
+    //  entero 
+    // ¿Cuales son las variables?
+    // n1, n2,n3, nma. nme
+    // ¿que variables voy a leer?
+    // n1, n2, n3
+    // definiendo e inicializando variables
+    var n1=0, n2=0, n3=0, nma=0, nme=o;
+    // capturando valores
+    n1=parseInt(prompt("ingrese el numero 1:"));
+    n2=parseInt(prompt("ingrese el numero 2:"));
+    n3=parseInt(prompt("ingrese el numero 3:"));
+    // condicion
+    if(n1>n2 && n1>n3){
+        nma=n1;
+    }else{
+        if(n2>n1 && n2>n3){
+            nma=n2;
+        }else{
+            nma=n3;
+        }
+    }
+
+    if(n1<n2 && n1<n3){
+        nme=n1;
+    }else{
+        if(n2<n1 && n2<n3){
+            nme=n2;
+        }else{
+            nme=n3;
+        }
+    }
+    // mostrando resultados
+    document.write("El numero mayor es: "+nma+"<br>");
+    document.write("El numero menor es: "+nme+"<br>");
+    document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

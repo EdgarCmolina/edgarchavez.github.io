@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - parte 3</title>
+    <script type="text/javascript">
+    // ejemplo 1
+    // desarrolllar una aplicacion que te permita ingresar tu nombre y mnostrar un saludo 5 veces
+    // ¿cuantas variables necesito?
+    // 2
+    // que tipo de datos necesito
+    // Texto y entero 
+    // ¿Cuales son las variables?
+    // nom,cont
+    // ¿que variables voy a leer?
+    // pre, can, cat
+    // nom
+    // definiendo e inicializando variables
+    var nom="", cont=0;
+    // capturando valores
+    nom=prompt("Ingresa tu nombre:");
+    // whiile
+    while(cont<5){
+        document.write("hola como estas "+nom+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    // do while
+    cont=0
+    do{
+        document.write("hola como estas "+nom+"<br>");
+        cont++;
+    }while(cont<5);
+    document.write("<hr>");
+    // for
+    for(cont=0;cont<5;cont++){
+        document.write("hola como estas "+nom+"<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+
+    // ejemplo 2
+
+    // desarrollar una aplicacion que te permita mostrar los n primeros numeros naturales
+
+    // ¿cuantas variables necesito?
+    // 2
+    // que tipo de datos necesito
+    // Entero
+    // ¿Cuales son las variables?
+    // cont y can
+    // ¿que variables voy a leer?
+    // can
+    // definiendo e inicializando variables
+    var cont=0, can=0;
+    // capturando valores
+    can=parseInt(prompt("Ingrese la cantidad de numeros:"));
+    // while
+    while(cont<can){
+        document.write(cont+"<br>");
+        cont++;
+    }
+    document.write("<hr>");
+    // do while
+    cont=0;
+    do{
+        document.write(cont+"<br>");
+        cont++;
+    }while(cont<can);
+    document.write("<hr>");
+    // for
+    for(cont=0;cont<can;cont++){
+        document.write(cont+"<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+    // Ejemplo 3
+    // Desarrollar una apliicacion que permita sumar los n primeros naturales
+    // ¿cuantas variables necesito?
+    // 3
+    // que tipo de datos necesito
+    // Entero
+    // ¿Cuales son las variables?
+    // cont y can, sum
+    // ¿que variables voy a leer?
+    // can
+    // definiendo e inicializando variables
+    var cont=0, can=0;
+    // capturando valores
+    can=parseInt(prompt("Ingrese la cantidad de numeros:"));
+    // while
+    while(cont<can){
+        document.write(cont+"<br>");
+        sum=sum+cont;
+        cont++;
+    }
+    document.write("La suma es: "+sum);
+    document.write("<hr>");
+    // do while
+    cont=0;
+    do{
+        document.write(cont+"<br>");
+        cont++;
+    }while(cont<can);
+    document.write("<hr>");
+    // for
+    for(cont=0;cont<can;cont++){
+        document.write(cont+"<br>");
+    }
+    document.write("<hr>");
+    document.write("<hr>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

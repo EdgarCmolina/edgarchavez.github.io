@@ -1,0 +1,91 @@
+.contenedor {
+  background-color: black;
+}
+
+/* aplicamos degradados a las cajas */
+
+/* generamos degradados de abajop hacia arriba */
+
+.degradado1 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, red, yellow);
+}
+
+/* generamos degradado de derecha a izquierda */
+.degradado2 {
+  width: 500x;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, green, yellow);
+}
+
+.degradado3 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, blue, yellow);
+}
+.degradado4 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to bottom, red, white);
+}
+.degradado5 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(
+    to left green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+.degradado6 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(
+    to left,
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+
+.degradado7 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(180deg to left, green, yellow);
+}
+
+.degradado8 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(
+    to left,
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange;
+  );
+}
+
+.degradado9 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(
+    to left,
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+

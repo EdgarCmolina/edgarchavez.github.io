@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-parte4</title>
+    <script type="text/javascript">
+    // ejemplo 2
+    // desarrollar una aplicacion que permita ingresar el precio de un producto y la cantidad a comprar y dependiendo de la categoria se aplicara un descuento al subtotal, tal como se muestra en la siguiente tabla:
+    // ¿cuantas variables necesito?
+    // 6
+    // que tipo de datos necesito
+    // real, entero 
+    // ¿Cuales son las variables?
+    // pre, can, sbt, des, tot, cat
+    // ¿que variables voy a leer?
+    // pre, can, cat
+    // definiendo e inicializando variables
+    var pre=0, can=0, sbt=0, des=0, tot=0, cat=0;
+    // capturando valores
+    pre=parseFloat(promt("Ingrese el precio del producto:"));
+    can=parseFloat(promt("Ingresa la cantidad de productos a comprar:"));
+    cat=parseInt(promt("Ingresa la categoria [1] o [2] o [3] o [4]:"));
+    // // realizando operaciones
+    sbt=pre*can;
+    // selectiva
+    switch(cat){
+        case 1:
+        des=sbt*0.03;
+        break;
+        case 2:
+        des=sbt*0.05;
+        break;
+        case 3:
+        des=sbt*0.07;
+        break;
+        case 4:
+        des=sbt*0.09;
+        break;
+        default:
+        des=0;
+        break;
+    }
+    tot=sbt-des;
+    // mostrabdo resultados
+    document.write("El subtotal es: "+sbt+"<br>");
+    document.write("El descuento es: "+des+"<br>");
+    document.write("El total es: "+tot+"<br>");
+    document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript - parte 2</title>
+    <script type="text/javascript">
+    // // Ejemplo 1
+    // // Desarrollar  una aplicacion que permita calcular la suma de 2 numeros, mostrar resultado de la suma
+    // // ¿cuantas variables necesito?
+    // // 3
+    // // que tipo de datos necesito
+    // // entero
+    // // declarando variables
+    var numero1;
+    var num_2;
+    var sum;
+    // // inicializar variables
+    numero1=0;
+    num_2=0;
+    sum=0;
+    // // capturando valores
+    numero1=parseInt(prompt("ingrese el numero 1:"));
+    num_2=parseInt(prompt("ingrese el numero 2:"));
+    // // realizando operaciones
+    sum=numero1+num_2;
+    // // mostrando resultados
+    alert("la suma es: "+sum);
+
+    document.write("la suma es: "+sum+"<br>");
+    document.write('<hr>');
+
+    // // Ejemplo 2 
+
+    // // desarrollar una aplicacion que permita calcular el promedio de 4 notas, mostrar el promedio 
+    // // ¿cuantas variables necesito?
+    // // 5
+    //  // que tipo de datos necesito
+    // // real
+    // // declarando variables
+    var n1;
+    var n2;
+    var n3;
+    var n4;
+    var prom;
+    // // inicalizar variables
+    n1=0;
+    n2=0;
+    n3=0;
+    n4=0;
+    prom=0;
+    // // capturando valores
+    n1=parseFloat(prompt("Ingrese la nota 1: "));
+    n2=parseFloat(prompt("Ingrese la nota 2: "));
+    n3=parseFloat(prompt("Ingrese la nota 3: "));
+    n4=parseFloat(prompt("Ingrese la nota 4: "));
+    // // realizando operaciones
+    prom=(n1+n2+n3+n4)/4;
+    // // mostrando valores
+
+    alert("el promedio es: "+prom);
+
+    document.write('el promedio es: '+prom+"<br>");
+    document.write('<hr>');
+
+         // Ejemplo 3
+
+    // ¿cuantas variables necesito?
+    //Desarrollar una aplicacion que permita mostrar un mensaje de saludo si se ingresa un nombre
+    // 1   
+    // que tipo de datos necesito
+    // texto
+    // declarando variables
+    var nom;
+    // inicializando las variables
+    nom="";
+    // asignando valores
+    nom=prompt("Ingresa tu nombre:");
+    // mostrando valores
+    alert('Hola como estas: '+nom+"espero que muy bien");
+
+    document.write("Hola como estas: "+nom+' espero que muy bien');
+    document.write('<hr>');
+
+        // ejemplo 4
+    // desarrollar una aplicacion que permita calcular el sueldo final de un trabajador, si se sabe que tiene un sueldo basico y recibe una bonificacion del 7% y se le aplica un descuento del 1,4%. Mostrar todos los valores
+    // cuan5tas variables necesito
+    4
+    // que tipo de datos necesito?
+    // real
+    // definiendo variables
+    var sb;
+    var bon;
+    var des;
+    var sf;
+    // inicializando variables
+    sb=0;
+    bon=0;
+    des=0;
+    sf=0;
+    // asignando valores
+    sb=parseFloat("Ingrese el sueldo basico: ");
+    // realizando operaciones
+    bon=sb*0.07;
+    des=sb*0.04;
+    sf=sb+bon-des;
+    // mostrando resultados
+    alert("le sueldo basico es: "+sb);
+    alert("lea bonificacion es: "+bon);
+    alert("le descuento es: "+des);
+    alert("le sueldo final es: "+sf);
+
+    document.write("El sueldo basico es: "+sb+'<br>');
+    document.write("La bonificacion es es: "+bon+'<br>');
+    document.write("El descuento es: "+des+'<br>');
+    document.write("El sueldo final es: "+sf+'<br>');
+    // Ejemplo 5
+    // desarrollar una aplicacion que permita calcular el total a pagar su se sabe que la cantidad se ingresa y el precio del producto comprado tambien se ingresa y ademas se deve calcular el igv que es el 10% del subtotal. mostrar todos los resultados
+
+    var can=0;
+    var pre=0;
+    var sbt=0;
+    var igv=0;
+    var tot=0;
+
+    // asignando valores
+    can=parseInt(prompt("Ingresa la cantidad a comprar: "));
+    pre=parseFloat(prompt("Ingrese el precio del producto: " ));
+    // realizando operaciones
+    sbt=can*pre;
+    igv=sbt*0.18;
+    tot=sbt+igv;
+
+    // mostrando resultados
+    alert('El sub total es: '+sbt+'<br>');
+    alert('El sub total es: '+sbt+'<br>');
+    alert('El sub total es: '+sbt+'<br>');
+
+
+
+
+    // Ejemplo 6
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
